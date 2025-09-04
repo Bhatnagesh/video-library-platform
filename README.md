@@ -123,6 +123,7 @@ erDiagram
     VIDEO ||--o{ COMMENT : has
     CATEGORY ||--o{ VIDEO : categorizes
 
+
 ---
 ## 🛠️ Setup & Installation
 
