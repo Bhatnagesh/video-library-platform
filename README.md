@@ -87,43 +87,6 @@ video-library/
 
 ---
 
-## 🗂️ Entity Relationship Diagram
-```mermaid
-erDiagram
-    USER {
-        int id
-        string userName
-        string email
-        string password
-    }
-    ADMIN {
-        int id
-        string userName
-        string password
-    }
-    CATEGORY {
-        int id
-        string categoryName
-    }
-    VIDEO {
-        int id
-        string title
-        string url
-        string description
-        int likes
-        int views
-        int dislike
-    }
-    COMMENT {
-        int id
-        string text
-    }
-
-    USER ||--o{ COMMENT : writes
-    VIDEO ||--o{ COMMENT : has
-    CATEGORY ||--o{ VIDEO : categorizes
-```   <-- **close Mermaid here**
----
 
 ## 🛠️ Setup & Installation
 
