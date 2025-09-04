@@ -124,3 +124,24 @@ erDiagram
     VIDEO ||--o{ COMMENT : "has"
     CATEGORY ||--o{ VIDEO : "categorizes"
 
+:: Create parent folder
+mkdir video-library-platform
+cd video-library-platform
+
+:: Move backend and frontend projects into it
+move "C:\Users\You\VideoLibrayPlatform" backend
+move "C:\Users\You\video-library-app" frontend
+
+:: Initialize Git
+git init
+
+:: Connect to GitHub (replace YOUR-USERNAME with your GitHub username)
+git remote add origin https://github.com/YOUR-USERNAME/video-library-platform.git
+
+:: Add and commit all files
+git add .
+git commit -m "Initial commit: frontend and backend projects"
+
+:: Push to GitHub
+git branch -M main
+git push -u origin main
