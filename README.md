@@ -119,9 +119,6 @@ erDiagram
         string text
     }
 
-    USER ||--o{ COMMENT : "writes"
-    VIDEO ||--o{ COMMENT : "has"
-    CATEGORY ||--o{ VIDEO : "categorizes"
-
-    ---
-  
+    USER ||--o{ COMMENT : writes
+    VIDEO ||--o{ COMMENT : has
+    CATEGORY ||--o{ VIDEO : categorizes
