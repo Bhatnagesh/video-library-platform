@@ -122,7 +122,7 @@ erDiagram
     USER ||--o{ COMMENT : writes
     VIDEO ||--o{ COMMENT : has
     CATEGORY ||--o{ VIDEO : categorizes
-
+```   <-- **close Mermaid here**
 ---
 
 ## 🛠️ Setup & Installation
