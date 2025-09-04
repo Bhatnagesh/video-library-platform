@@ -1,0 +1,25 @@
+
+
+
+.banner-bg{
+    background-image: url("../../public/banner.png");
+     background-size: cover;
+  background-attachment: fixed;  /* keeps the image fixed in place */
+  height: auto;                  /* no forced height */
+  min-height: 100vh; 
+   
+      background: linear-gradient(to right, #01082e, #310606, #000000);
+
+}
+.bg-black-gray
+{
+    background-color: #0f0f0f
+
+}
+h4 {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+
+

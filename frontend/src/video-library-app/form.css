@@ -1,0 +1,25 @@
+
+ .shade {
+           
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+.custom-input {
+  background-color: #2c2c2c; /* Dark gray background */
+  color: #fff;              /* White text */
+  border: 1px solid #555;   /* Subtle border */
+}
+
+.custom-input {
+  background-color: transparent; /* Transparent, so it shows parent's bg */
+  color: #fff;                   /* White text */
+  border: 1px solid #555;        /* Subtle border */
+}
+
+.custom-input:focus {
+  background-color: transparent; /* Keep transparent on focus */
+  border-color: #ff9800;         /* Orange border on focus */
+  color: #fff;
+  box-shadow: none;              /* Remove blue glow */
+}
+

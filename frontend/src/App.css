@@ -1,0 +1,5 @@
+/* in App.css or index.css */
+body {
+  background: url('/your-image-path.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
