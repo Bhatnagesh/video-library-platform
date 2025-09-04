@@ -91,13 +91,15 @@ video-library/
 
 Follow these steps to set up the project:
 
-```bash
+
 # 1️⃣ Clone Repository
-git clone https://github.com/your-username/video-library.git
+```bash
+ git clone https://github.com/your-username/video-library.git
+---
 cd video-library
 
 # 2️⃣ Configure Database
-CREATE DATABASE video_library;
+ CREATE DATABASE video_library;
 
 # Update application.properties
 spring.datasource.url=jdbc:mysql://localhost:3306/video_library
