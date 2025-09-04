@@ -87,26 +87,28 @@ video-library/
 
 ---
 
-
 ## 🛠️ Setup & Installation
 
-1️⃣ Clone Repository  
-git clone https://github.com/your-username/video-library.git  
+Follow these steps to set up the project:
+
+```bash
+# 1️⃣ Clone Repository
+git clone https://github.com/your-username/video-library.git
 cd video-library
 
-2️⃣ Configure Database  
+# 2️⃣ Configure Database
 CREATE DATABASE video_library;
 
-Update application.properties:  
-spring.datasource.url=jdbc:mysql://localhost:3306/video_library  
-spring.datasource.username=your_username  
-spring.datasource.password=your_password  
+# Update application.properties
+spring.datasource.url=jdbc:mysql://localhost:3306/video_library
+spring.datasource.username=your_username
+spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 
-3️⃣ Run Backend  
+# 3️⃣ Run Backend
 mvn spring-boot:run
 
-4️⃣ Run Frontend  
-cd frontend  
-npm install  
+# 4️⃣ Run Frontend
+cd frontend
+npm install
 npm start
