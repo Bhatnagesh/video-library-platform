@@ -124,7 +124,7 @@ erDiagram
     CATEGORY ||--o{ VIDEO : categorizes
 
 
----
+
 ## 🛠️ Setup & Installation
 
 1️⃣ Clone Repository  
