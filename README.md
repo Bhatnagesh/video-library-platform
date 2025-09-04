@@ -124,45 +124,47 @@ erDiagram
     CATEGORY ||--o{ VIDEO : categorizes
 
 
+🛠️ Setup & Installation
 
-## 🛠️ Setup & Installation
+1️⃣ Clone Repository
+git clone https://github.com/your-username/video-library.git
 
-1️⃣ Clone Repository  
-git clone https://github.com/your-username/video-library.git  
 cd video-library
 
-2️⃣ Configure Database  
+2️⃣ Configure Database
 CREATE DATABASE video_library;
 
-Update application.properties:  
-spring.datasource.url=jdbc:mysql://localhost:3306/video_library  
-spring.datasource.username=your_username  
-spring.datasource.password=your_password  
+Update application.properties:
+spring.datasource.url=jdbc:mysql://localhost:3306/video_library
+spring.datasource.username=your_username
+spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 
-3️⃣ Run Backend  
+3️⃣ Run Backend
 mvn spring-boot:run
 
-4️⃣ Run Frontend  
-cd frontend  
-npm install  
+4️⃣ Run Frontend
+cd frontend
+npm install
 npm start
 
----
+🔮 Future Enhancements
 
-## 🔮 Future Enhancements
-- 🔐 JWT-based authentication  
-- 📊 Admin dashboard with analytics  
-- 🏷️ Video tagging and search  
-- 📨 Email notifications for comments  
-- 📦 Docker containerization  
-- 🚀 CI/CD pipeline for deployment
+🔐 JWT-based authentication
 
----
+📊 Admin dashboard with analytics
 
-## 👨‍💻 Author
-**Nagesh Bhat**  
-🔗 GitHub: [your_github_username](https://github.com/your_github_username)  
+🏷️ Video tagging and search
+
+📨 Email notifications for comments
+
+📦 Docker containerization
+
+🚀 CI/CD pipeline for deployment
+
+👨‍💻 Author
+
+Nagesh Bhat
+🔗 GitHub: your_github_username
+
 📧 Email: your_email@example.com
-
-
